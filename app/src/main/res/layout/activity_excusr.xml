@@ -18,7 +18,7 @@
             android:paddingLeft="20dp"
             android:paddingBottom="10dp"
             android:paddingRight="20dp"
-            android:id="@+id/customNumber">
+            android:id="@+id/number">
 
             <EditText
                 android:layout_width="match_parent"
@@ -27,6 +27,7 @@
                 android:textColorHint="@color/textDark"
                 android:textColor="@color/textLight"
                 android:backgroundTint="@color/textLight"
+                android:id="@+id/customNumber"
                 android:digits="0123456789+"
                 android:inputType="phone"/>
 
@@ -44,10 +45,11 @@
                 android:paddingRight="20dp"
                 android:paddingLeft="20dp"
                 android:paddingTop="10dp"
-                android:id="@+id/customExcuse"
+                android:id="@+id/excuse"
                 android:orientation="horizontal">
 
             <EditText
+                android:id="@+id/customExcuse"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/excuse_hint"
@@ -162,16 +164,17 @@
 
     </LinearLayout>
 
- <!--   <android.support.design.widget.FloatingActionButton
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/ic_send_white_48dp"
-        android:layout_margin="22dp"
-        android:id="@+id/fab"
+        android:layout_margin="16dp"
         android:clickable="true"
         android:onClick="sendText"
-        android:backgroundTint="@color/fab"
-        app:layout_anchorGravity="bottom|end|right"
-        app:layout_anchor="@id/customExcuse"/>
--->
+        android:background="@color/colorAccent"
+        android:src="@drawable/ic_send_white_48dp"
+        app:layout_anchor="@id/excuse"
+        app:layout_anchorGravity="bottom|right|end"/>
+
+
 </android.support.design.widget.CoordinatorLayout>
