@@ -65,7 +65,7 @@
             android:layout_height="wrap_content"
             android:paddingRight="20dp"
             android:paddingLeft="20dp"
-            android:paddingTop="20dp"
+            android:paddingTop="40dp"
             android:paddingBottom="20dp"
             android:orientation="vertical">
 
@@ -173,7 +173,7 @@
         android:clickable="true"
         android:onClick="sendText"
         android:backgroundTint="@color/fab"
-        app:layout_anchorGravity="bottom|end"
+        app:layout_anchorGravity="bottom|end|right"
         app:layout_anchor="@id/customExcuse"/>
 
 </android.support.design.widget.CoordinatorLayout>

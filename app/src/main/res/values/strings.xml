@@ -19,6 +19,6 @@
     <string name="out">Going Out</string>
     <string name="test">Preparing for test</string>
     <string name="accident">Accident</string>
-    <string name="mother">Mother is unwell</string>
+    <string name="mother">Mother unwell</string>
     <string name="overslept">Overslept</string>
 </resources>
