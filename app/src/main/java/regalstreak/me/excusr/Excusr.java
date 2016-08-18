@@ -1,17 +1,19 @@
 package regalstreak.me.excusr;
 
+import android.support.design.widget.CoordinatorLayout;
+import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.telephony.SmsManager;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Toast;
 
 public class Excusr extends AppCompatActivity {
 
     private EditText customExcuse;
     private EditText customNumber;
+    private CoordinatorLayout coordinatorLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,7 +22,9 @@ public class Excusr extends AppCompatActivity {
 
         customExcuse = (EditText)findViewById(R.id.customExcuse);
         customNumber = (EditText)findViewById(R.id.customNumber);
+        coordinatorLayout = (CoordinatorLayout)findViewById(R.id.coordinatorLayout);
     }
+
 
     public void sendText(View view){
 
@@ -39,7 +43,7 @@ public class Excusr extends AppCompatActivity {
         SmsManager smsManager = SmsManager.getDefault();
         smsManager.sendTextMessage(number, null, "I won't be able to come today. " + excuse, null, null);
 
+        Snackbar.make(coordinatorLayout, "Some shot", Snackbar.LENGTH_LONG)
+                .show();
     }
-
-
 }
