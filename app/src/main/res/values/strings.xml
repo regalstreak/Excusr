@@ -2,4 +2,5 @@
     <string name="app_name">Excusr</string>
     <string name="number_hint">Enter the phone number here...</string>
     <string name="excuse_hint">Enter your custom excuse message here...</string>
+    <string name="common_excuses">Common Excuses</string>
 </resources>
