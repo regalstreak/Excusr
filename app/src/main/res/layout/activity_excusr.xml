@@ -28,7 +28,6 @@
                 android:textColor="@color/textLight"
                 android:backgroundTint="@color/textLight"
                 android:digits="0123456789+"
-                android:backgroundTintMode="add"
                 android:inputType="phone"/>
 
         </LinearLayout>
@@ -53,8 +52,7 @@
                 android:layout_height="wrap_content"
                 android:hint="@string/excuse_hint"
                 android:textColorHint="@color/textDark"
-                android:backgroundTint="@color/textLight"
-                android:backgroundTintMode="add"/>
+                android:backgroundTint="@color/textLight"/>
 
             </LinearLayout>
 
