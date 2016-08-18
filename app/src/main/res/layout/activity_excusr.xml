@@ -13,7 +13,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#388E3C"
+            android:background="@color/colorMobileNummber"
             android:paddingTop="20dp"
             android:paddingLeft="20dp"
             android:paddingBottom="10dp"
@@ -40,7 +40,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="#43A047"
+                android:background="@color/colorExcuseMessage"
                 android:paddingBottom="30dp"
                 android:paddingRight="20dp"
                 android:paddingLeft="20dp"
