@@ -17,7 +17,8 @@
             android:paddingTop="20dp"
             android:paddingLeft="20dp"
             android:paddingBottom="10dp"
-            android:paddingRight="20dp">
+            android:paddingRight="20dp"
+            android:id="@+id/customNumber">
 
             <EditText
                 android:layout_width="match_parent"
@@ -39,7 +40,8 @@
             android:paddingBottom="30dp"
             android:paddingRight="20dp"
             android:paddingLeft="20dp"
-            android:paddingTop="10dp">
+            android:paddingTop="10dp"
+            android:id="@+id/customExcuse">
 
             <EditText
                 android:layout_width="match_parent"
@@ -53,6 +55,17 @@
 
     </LinearLayout>
 
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_send_white_48dp"
+        android:id="@+id/fab"
+        android:background="#FFEB3B"
+        android:clickable="true"
+        android:onClick="sendText"
+        android:layout_margin="16dp"
+        app:layout_anchorGravity="bottom|right|end"/>
+       <!-- app:layout_anchor="@id/customExcuse" -->
 
 
 </android.support.design.widget.CoordinatorLayout>
