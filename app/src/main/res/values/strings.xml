@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Excusr</string>
+    <string name="number_hint">Enter the phone number here...</string>
 </resources>

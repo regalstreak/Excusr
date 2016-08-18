@@ -11,11 +11,23 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:paddingTop="20dp"
+            android:paddingLeft="20dp"
+            android:paddingBottom="20dp"
+            android:paddingRight="20dp">
 
             <EditText
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:hint="@string/number_hint"
+                android:textColorHint="@color/textDark"
+                android:textColor="@color/textLight"
+                android:backgroundTint="@color/textLight"
+                android:digits="0123456789+"
+                android:backgroundTintMode="add"
+                android:inputType="phone"/>
 
         </LinearLayout>
 
