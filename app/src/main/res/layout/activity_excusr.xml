@@ -157,4 +157,17 @@
 
     </LinearLayout>
 
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_send_white_48dp"
+        android:clickable="true"
+        android:onClick="sendText"
+        android:background="#FFEB3B"
+        android:padding="22dp"
+        app:layout_anchor="@id/customExcuse"
+        app:layout_anchorGravity="bottom|right"/>
+
 </android.support.design.widget.CoordinatorLayout>
