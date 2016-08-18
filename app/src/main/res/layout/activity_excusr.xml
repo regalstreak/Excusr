@@ -84,31 +84,31 @@
                     <Button
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Excuse 1"
+                        android:text="@string/not_well"
                         android:onClick="sendText"/>
 
                     <Button
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Excuse 2"
+                        android:text="@string/stomach_upset"
                         android:onClick="sendText"/>
 
                     <Button
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Excuse 1"
+                        android:text="@string/marriage"
                         android:onClick="sendText"/>
 
                     <Button
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Excuse 1"
+                        android:text="@string/head"
                         android:onClick="sendText"/>
 
                     <Button
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Excuse 1"
+                        android:text="@string/body"
                         android:onClick="sendText"/>
 
                 </LinearLayout>
@@ -122,31 +122,31 @@
                     <Button
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Excuse 1"
+                        android:text="@string/out"
                         android:onClick="sendText"/>
 
                     <Button
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Excuse 2"
+                        android:text="@string/test"
                         android:onClick="sendText"/>
 
                     <Button
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Excuse 1"
+                        android:text="@string/accident"
                         android:onClick="sendText"/>
 
                     <Button
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Excuse 1"
+                        android:text="@string/mother"
                         android:onClick="sendText"/>
 
                     <Button
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Excuse 1"
+                        android:text="@string/overslept"
                         android:onClick="sendText"/>
 
                 </LinearLayout>

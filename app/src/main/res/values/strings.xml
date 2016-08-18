@@ -1,6 +1,24 @@
 <resources>
+
+    <!-- App Name -->
     <string name="app_name">Excusr</string>
+
+    <!-- Hint Texts -->
     <string name="number_hint">Enter the phone number here...</string>
     <string name="excuse_hint">Enter your custom excuse message here...</string>
+
+    <!-- Text -->
     <string name="common_excuses">Common Excuses</string>
+
+    <!-- Common Excuses -->
+    <string name="not_well">Not Well</string>
+    <string name="stomach_upset">Stomach Upset</string>
+    <string name="marriage">Brother's Marriage</string>
+    <string name="head">Headache</string>
+    <string name="body">Bodyache</string>
+    <string name="out">Going Out</string>
+    <string name="test">Preparing for test</string>
+    <string name="accident">Accident</string>
+    <string name="mother">Mother is unwell</string>
+    <string name="overslept">Overslept</string>
 </resources>
