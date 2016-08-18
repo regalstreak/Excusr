@@ -29,7 +29,7 @@ proguard/
 # Idea files
 .idea/
 .ideaf/
-app/app.iml
+*.iml
 
 # PRIVATE keystore
 privatekey.jks
