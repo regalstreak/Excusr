@@ -47,19 +47,24 @@ public class Excusr extends AppCompatActivity {
 
         number = customNumber.getText().toString();
 
-        if(view.getId() == R.id.fab){
-            excuse = customExcuse.getText().toString();
+        if(number != null && !number.isEmpty()) {
+
+            if (view.getId() == R.id.fab) {
+                excuse = customExcuse.getText().toString();
+            } else {
+                Button sender = (Button) view;
+                excuse = sender.getText().toString();
+            }
+
+            SmsManager smsManager = SmsManager.getDefault();
+            smsManager.sendTextMessage(number, null, "I won't be able to come today. " + excuse, null, null);
+
+            Toast.makeText(this, "The SMS was sent!", Toast.LENGTH_LONG).show();
         }
         else{
-            Button sender = (Button)view;
-            excuse = sender.getText().toString();
+            Snackbar.make(coordinatorLayout, "Mobile Number cannot be empty!", Snackbar.LENGTH_LONG)
+                    .show();
         }
-
-        SmsManager smsManager = SmsManager.getDefault();
-        smsManager.sendTextMessage(number, null, "I won't be able to come today. " + excuse, null, null);
-
-        Snackbar.make(coordinatorLayout, "Some shot", Snackbar.LENGTH_LONG)
-                .show();
     }
 
     @Override
