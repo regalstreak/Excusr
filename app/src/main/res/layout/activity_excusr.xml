@@ -177,5 +177,4 @@
         app:layout_anchor="@id/excuse"
         app:layout_anchorGravity="bottom|right|end"/>
 
-
 </android.support.design.widget.CoordinatorLayout>
