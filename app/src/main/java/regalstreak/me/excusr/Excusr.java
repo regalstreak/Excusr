@@ -1,6 +1,7 @@
 package regalstreak.me.excusr;
 
 import android.Manifest;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.support.annotation.NonNull;
 import android.support.design.widget.CoordinatorLayout;
@@ -45,9 +46,12 @@ public class Excusr extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle item selection
         switch (item.getItemId()) {
-            case R.id.About:
-                Toast.makeText(this, "Hello", Toast.LENGTH_LONG).show();
+            case R.id.About:{
+                Intent intent = new Intent(this, aboutactivity.class);
+                startActivity(intent);
                 return true;
+            }
+
             default:
                 return super.onOptionsItemSelected(item);
         }

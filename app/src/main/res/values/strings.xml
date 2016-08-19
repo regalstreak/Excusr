@@ -21,4 +21,7 @@
     <string name="accident">Accident</string>
     <string name="mother">Mother unwell</string>
     <string name="overslept">Overslept</string>
+
+    <!-- About -->
+    <string name="copyright">(C) Neil \"regalstreak\" Agarwal</string>
 </resources>
