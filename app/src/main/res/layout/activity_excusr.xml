@@ -29,7 +29,7 @@
                 android:textColor="@color/textLight"
                 android:backgroundTint="@color/textLight"
                 android:id="@+id/customNumber"
-                android:digits="0123456789+"
+                android:digits="0123456789"
                 android:inputType="phone"/>
 
         </LinearLayout>
@@ -55,6 +55,7 @@
                 android:layout_height="wrap_content"
                 android:hint="@string/excuse_hint"
                 android:textColorHint="@color/textDark"
+                android:textColor="@color/textLight"
                 android:backgroundTint="@color/textLight"/>
 
             </LinearLayout>
